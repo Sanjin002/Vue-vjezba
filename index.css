@@ -1,0 +1,22 @@
+body {
+  background-color: lightblue;
+}
+
+p {
+  color: navy;
+  margin-left: 20px;
+}
+p {
+
+  white-space: nowrap; 
+  width: 200px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150px;
+  height: 20px;
+  transition: ease-in-out 5s;
+}
+
+p:hover {
+  width: 800px;
+}
