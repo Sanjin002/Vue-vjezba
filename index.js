@@ -40,9 +40,8 @@ let app = new Vue({
       localStorage.setItem('saved', data)
     },
     toggleEditMode: function() {
-      this.editMode = !this.editMode
+      this.editMode = !this.editMode 
     }
-  },
   computed: {
     winnerString: function() {
       let scores = this.frameworks.map(f=> f.votes)
